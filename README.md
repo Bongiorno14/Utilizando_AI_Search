@@ -1,5 +1,5 @@
 # UTILIZANDO AZURE AI SEARCH 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Bongiorno14/Projeto_reconhecimento-_Rostos/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Bongiorno14/Utilizando_AI_Search/blob/main/LICENSE) 
 
 # Sobre o projeto
 

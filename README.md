@@ -15,6 +15,20 @@ o entender como aproveitar ao máximo as capacidades do Azure AI Search, é poss
 - Azure Resource Groups
 - Azure Storage Accounts
 
+# Passo a Passo
+1. Criação do Resource Group:
+  Criação de um novo grupo de recursos no Azure para organizar todos os recursos relacionados ao projeto de pesquisa.
+2. Criação do Serviço Azure AI Search:
+  Criação de um novo serviço Azure AI Search dentro do grupo de recursos criado anteriormente.
+3. Criação do Armazenamento (Storage):
+  Criação de  um armazenamento no Azure para armazenar os dados que serão indexados pelo Azure AI Search.
+4. Definição e Configuração do Índice de Dados:
+  No serviço Azure AI Search, define-se e configura-se um índice para especificar como os dados serão estruturados e indexados.
+5. Inserção dos Dados no Índice:
+  Carrega-se os dados do armazenamento para o índice configurado no Azure AI Search para que eles possam ser consultados.
+6. Configuração e Execução das Consultas:
+  Configura-se as consultas de pesquisa conforme necessário, considerando os campos do índice e os requisitos de busca.
+
 # Insights e Possibilidades
 - O Azure AI Search oferece recursos avançados de personalização da experiência de pesquisa, como realces de texto para destacar termos de pesquisa nos resultados, sugestões de consulta para correção automática de erros ortográficos e aprimoramento da relevância dos resultados aplicando filtros dinamicos par refinar os resultados em diferentes categorias especificas do seu conjunto.
 - A ferramenta se integra facilmente com outras ferramentas de desenvolvimento e análise de dados, como o Azure Cognitive Services para análise de sentimentos em textos, extração de entidades nomeadas (NER) e análise de imagem para enriquecer os metadados indexados, juntamente com plataformas de BI.
